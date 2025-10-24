@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: .5s;
+    font-family: "Manrope-VariableFont_wght.ttf";
+}
+
+@font-face {
+    font-family: "Manrope-VariableFont_wght.ttf";
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+    font-weight: 0;
+}
+
+@font-face {
+    font-family: "Finlandica-VariableFont_wght.ttf";
+    src: url(../fonts/Finlandica-VariableFont_wght.ttf);
+    font-weight: 0;
+}
+
+.fot_isled {
+    background-size: cover;
+    background-image: url('../image/image1/header.png');
+    height: 224px;
+    margin: 0 auto;
+}
+
+/* header start */
+.container_head {
+    margin: 0 auto;
+    max-width: 1450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.log {
+    padding-top: 38px;
+}
+
+.header nav {
+    margin-top: 70px;
+    display: flex;
+    gap: 80px;
+}
+
+.header nav a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400px;
+    animation: fadeInUp 0.5s ease-out backwards;
+    animation-delay: calc(var(--nav-index) * 0.1s);
+}
+
+.header nav a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400px;
+    transform: scale(1.02);
+}
+
+.icon {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.icon img {
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.icon2 img {
+    margin-top: 5px;
+    width: 34px;
+    height: 28px;
+    cursor: pointer;
+}
+
+/* header end */
+
+/* cotol start */
+.contain_popyl {
+    padding-top: 110px;
+    margin: 0 auto;
+    max-width: 1500px;
+    justify-content: space-between;
+}
+
+.contain_popyl hr {
+    width: 235px;
+    border: 2.5px solid #4AADBC;
+    border-radius: 5px;
+    margin-top: 11px;
+    animation: scaleIn 0.8s ease-out;
+}
+
+.cotol nav {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.cotol nav a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    animation: fadeInUp 0.5s ease-out backwards;
+    animation-delay: calc(var(--filter-index) * 0.1s);
+}
+
+.cotol nav a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.strok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.odn {
+    margin-top: 40px;
+    display: flex;
+    animation: fadeInUp 0.8s ease-out backwards;
+    animation-delay: 0.3s;
+}
+
+input {
+    width: 261px;
+    height: 40px;
+    color: #000000;
+    border: 2px solid #a09f9f97;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.poisk_btn {
+    width: 146px;
+    height: 40px;
+    background-color: #4AADBC;
+    border: 2px solid #4AADBC;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.turi {
+    margin-top: 38px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+}
+
+.turu1 {
+    margin-top: 50px;
+    width: 440px;
+    height: 508px;
+    box-shadow: 0px 5px 50px #9999993d;
+    animation: fadeInUp 0.8s ease-out backwards;
+}
+
+.turu1:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.turu1:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.turu1:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.turu1:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.turu1:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.turu1:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+.btn_tur {
+    width: 106px;
+    height: 28px;
+    background-color: #6FBDC9;
+    border-radius: 50px;
+    border: 1px solid #6FBDC9;
+    color: #ffffff;
+    margin: 18px 0px 0px 28px;
+}
+
+.btn_tur2 {
+    width: 106px;
+    height: 28px;
+    background-color: #6FBDC9;
+    border-radius: 50px;
+    border: 1px solid #6FBDC9;
+    color: #ffffff;
+    margin: 18px 0px 0px 16px;
+}
+
+.btn_tur3 {
+    width: 106px;
+    height: 28px;
+    background-color: #6FBDC9;
+    border-radius: 50px;
+    border: 1px solid #6FBDC9;
+    color: #ffffff;
+    margin: 18px 0px 0px 16px;
+}
+
+.turi h2 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 27px;
+    margin-left: 26px;
+    font-weight: 700;
+}
+
+.turi p {
+    color: #8A8A8A;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+.btn_tur4 {
+    width: 100px;
+    height: 18px;
+    background-color: #6fbdc900;
+    border: 1px solid #6fbdc900;
+    color: #000000;
+    margin: 18px 0px 0px 16px;
+    margin-top: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nd_str img {
+    margin-left: 18px;
+    padding-top: 10px;
+}
+
+.ft2 {
+    background-image: url(../image/ft2.png);
+    height: 278px;
+    width: 440px;
+}
+
+.btn_esh {
+    width: 239px;
+    height: 50px;
+    background-color: #ffffff00;
+    border: 2px solid #4AADBC;
+    color: #4AADBC;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 650px;
+    cursor: pointer;
+    animation: scaleIn 0.8s ease-out backwards;
+    animation-delay: 1.4s;
+}
+
+.btn_esh:hover {
+    width: 239px;
+    height: 50px;
+    background-color: #4AADBC;
+    border: 2px solid #4AADBC;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 650px;
+    cursor: pointer;
+}
+
+/* cotol end */
+
+/* podval start */
+.podval {
+    height: 399px;
+    background-color: #202123;
+    margin-top: 85px;
+}
+
+.container_podv {
+    padding-top: 110px;
+    margin: 0 auto;
+    max-width: 1500px;
+    justify-content: space-between;
+}
+
+.sh1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navvv nav {
+    margin-top: 30px;
+    display: flex;
+    gap: 80px;
+}
+
+.navvv nav a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.ick_str {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.vk {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.ne_strok a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300px;
+    top: 150px;
+}
+
+.strrr {
+    max-width: 160px;
+}
+
+.left a {
+    margin-left: 45px;
+}
+
+.left {
+    margin-top: 20px;
+}
+
+.lg img {
+    width: 116px;
+    height: 103px;
+}
+
+.rght {
+    margin-left: 20px;
+}
+
+.sh2 {
+    margin-top: 75px;
+}
+
+.sh2 p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+/* podval end */
+
+/* Добавим новые анимации */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Анимация для заголовка и поиска */
+.contain_popyl h1 {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Анимация для карточек туров */
+.turu1 {
+    animation: fadeInUp 0.8s ease-out backwards;
+}
+
+.turu1:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.turu1:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.turu1:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.turu1:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.turu1:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.turu1:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+/* Анимация для кнопки "Ещё" */
+.btn_esh {
+    animation: scaleIn 0.8s ease-out backwards;
+    animation-delay: 1.4s;
+}

@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: .5s;
+    font-family: "Manrope-VariableFont_wght.ttf";
+}
+
+@font-face {
+    font-family: "Manrope-VariableFont_wght.ttf";
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+    font-weight: 0;
+}
+
+@font-face {
+    font-family: "Finlandica-VariableFont_wght.ttf";
+    src: url(../fonts/Finlandica-VariableFont_wght.ttf);
+    font-weight: 0;
+}
+
+.fot_isled {
+    background-size: cover;
+    background-image: url('../image/header.png');
+    height: 224px;
+    margin: 0 auto;
+}
+
+/* vhod start */
+.fot {
+    background-image: url(../image/image3/fott.png);
+    height: 1090px;
+    background-size: cover;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.bel {
+    width: 653px;
+    height: 677px;
+    background-color: #ffff;
+    border-radius: 63px;
+    animation: popUp 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 653px;
+    padding-top: 100px;
+}
+
+.nadp {
+    display: flex;
+    gap: 10px;
+    padding: 90px 110px 0px 110px;
+    animation: fadeIn 0.5s ease-out 0.3s backwards;
+}
+
+.hern a {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 800;
+}
+
+.ser a {
+    font-size: 40px;
+    color: #989898;
+    font-weight: 800;
+}
+
+.nadp p {
+    font-size: 40px;
+    color: #989898;
+    font-weight: 800;
+}
+
+.inp {
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin-top: 65px;
+}
+
+input {
+    width: 440px;
+    height: 60px;
+    padding-left: 30px;
+    margin-left: 110px;
+    font-size: 17px;
+    margin-bottom: 38px;
+    border-radius: 10px;
+    border: 2px solid #D3D3D3;
+    animation: fadeIn 0.5s ease-out backwards;
+}
+
+input::placeholder {
+    color: #909090;
+}
+
+.inp input:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+.inp input:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.inp input:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.strrrr {
+    display: flex;
+    gap: 6px;
+    margin-left: 230px;
+    color: #A5A5A5;
+    animation: fadeIn 0.5s ease-out 0.7s backwards;
+}
+
+.strrrr p {
+    font-size: 15px;
+    color: #A5A5A5;
+}
+
+.strrrr a {
+    font-size: 15px;
+    color: #A5A5A5;
+    text-decoration: underline;
+}
+
+.btn_vhod {
+    width: 440px;
+    height: 65px;
+    background-color: #6FBDC9;
+    margin-top: 35px;
+    border: 2px solid #6FBDC9;
+    margin-left: 110px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    animation: fadeIn 0.5s ease-out 0.8s backwards;
+}
+
+.btn_vhod:hover {
+    width: 440px;
+    height: 65px;
+    background-color: #6fbdc900;
+    margin-top: 35px;
+    border: 2px solid #6FBDC9;
+    margin-left: 110px;
+    color: #6FBDC9;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* vhod end */
+
+/* Добавим анимации */
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
